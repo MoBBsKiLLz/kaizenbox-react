@@ -1,0 +1,32 @@
+.left-aligned-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 200px;
+  background-color: #343a40;
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  z-index: 1;
+}
+
+.left-aligned-navbar .nav-link {
+  color: #ffffff;
+  margin-bottom: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.navbar-logo {
+  display: flex;
+  justify-content: center; /* Center the logo horizontally */
+  align-items: center; /* Optionally center vertically if needed */
+  width: 100%; /* Make the div take full width for centering */
+  margin-bottom: 20px; /* Space below the logo */
+}
+
+.navbar-logo img {
+  height: 100px; /* Adjust the height as needed */
+  width: auto;  /* Maintain aspect ratio */
+}
