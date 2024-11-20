@@ -3,7 +3,7 @@ import { Card, Button } from 'react-bootstrap';
 
 const FacilityItem = ({ facility, onEdit, onDelete }) => {
   return (
-    <Card className="shadow-sm mb-4">
+    <Card className="shadow-sm mb-4 facility-card">
       <Card.Body>
         <Card.Title>{facility.facility_name}</Card.Title>
         <Card.Text>

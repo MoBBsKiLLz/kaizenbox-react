@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { register } from '../services/authService';
 import { Container, Form, Button, Row, Col, Alert } from 'react-bootstrap'; // Importing Bootstrap components
-import logo from '../assets/logo.png'
+import logo from '../assets/logo.png';
+import  '../App.css';
 
 const RegisterPage = () => {
   const [username, setUsername] = useState('');
@@ -21,7 +22,7 @@ const RegisterPage = () => {
   };
 
   return (
-    <Container fluid className="d-flex justify-content-center align-items-center" style={{ minHeight: '100vh' }}>
+    <Container fluid className="d-flex justify-content-center align-items-center auth-background" style={{ minHeight: '100vh' }}>
       <Row className="w-100">
         <Col md={6} lg={4} className="mx-auto">
           <div className="text-center mb-4">
