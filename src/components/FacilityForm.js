@@ -4,7 +4,7 @@ import { Container, Form, Button } from 'react-bootstrap';
 import LeftAlignedNavbar from './LeftAlignedNavbar';
 import { createFacility, editFacility } from '../services/facilityService';
 
-const FacilityForm = ({ initialData = null, onSubmit }) => {
+const FacilityForm = () => {
     const [facilityId, setFacilityId] = useState('');
     const [facilityName, setFacilityName] = useState('');
     const [address1, setAddress1] = useState('');

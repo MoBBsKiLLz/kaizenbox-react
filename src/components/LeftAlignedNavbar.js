@@ -14,7 +14,7 @@ const LeftAlignedNavbar = () => {
   };
 
   return (
-    <Nav className="left-aligned-navbar flex-column">
+    <Nav className="left-aligned-navbar flex-column shadow-lg">
       {/* Logo at the top of the navbar */}
       <div className="navbar-logo">
         <img src={logo} alt="Logo" />
