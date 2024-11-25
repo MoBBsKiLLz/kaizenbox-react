@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { getAuthToken } from './authService';
 
-const API_URL = 'http://localhost:3000';
+const API_URL = 'http://192.168.68.77:3000';
 
 const getFacilityList = async () => {
   const token = getAuthToken();
